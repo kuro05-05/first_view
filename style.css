@@ -15,6 +15,11 @@ header {
     display: block;
 }
 
+.HeaderLogo:hover {
+    opacity: 0.7;
+}
+
+
 @media screen and (max-width: 1080px) {
 .Header--common {
     position: fixed !important;
@@ -277,13 +282,22 @@ ul {
     color: #fff;
 }
 
+.HeaderNavListItem:hover {
+    opacity: 0.7;
+}
+
+
 .FirstView {
     background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 100px;
     padding-bottom: 28px;
-    
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -458,6 +472,10 @@ h2 {
     text-decoration: none;
     text-align: center;
     width: 100%;
+}
+
+.FirstViewContent__button:hover {
+    opacity: 0.7;
 }
 
 .FirstViewCaption {
