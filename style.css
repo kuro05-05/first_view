@@ -11,6 +11,12 @@
     word-break: break-all;
 }
 
+@media screen and (min-width:1081px) {
+    .Header {
+        padding-top: 0;
+    }
+}
+
 header {
     display: block;
 }
@@ -288,7 +294,7 @@ ul {
 
 @media screen and (min-width: 768px) {
 .FirstView {
-    background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 100px;
